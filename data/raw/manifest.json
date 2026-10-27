@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "retrievedAt": "2026-10-26T09:23:18Z",
+  "decisionDate": "2026-01-05",
+  "deliveryDate": "2026-01-06",
+  "cutoffLocal": "09:20",
+  "timezone": "Europe/London",
+  "cutoffUtc": "2026-01-05T09:20:00Z",
+  "forecastLookbackDays": 7,
+  "forecastObservationMinutesAfterCutoff": 60,
+  "files": [
+    {
+      "path": "data/raw/windfor_decision_2026-01-05.json",
+      "sourceUrl": "https://data.elexon.co.uk/bmrs/api/v1/datasets/WINDFOR/stream?publishDateTimeFrom=2025-12-29T09%3A20%3A00Z&publishDateTimeTo=2026-01-05T10%3A20%3A00Z",
+      "recordCount": 4161,
+      "bytes": 469088,
+      "sha256": "5ffd10df873e002a6f38fef021b4ca3579d1ba6e0fc7bf4c304ec6e5adbb0658"
+    },
+    {
+      "path": "data/raw/fuelhh_delivery_2026-01-06.json",
+      "sourceUrl": "https://data.elexon.co.uk/bmrs/api/v1/datasets/FUELHH/stream?settlementDateFrom=2026-01-06&settlementDateTo=2026-01-06&fuelType=WIND",
+      "recordCount": 48,
+      "bytes": 8702,
+      "sha256": "304f609366e42241a22697f991f71980e3ee0dd0c914b9d4bc1689fb5525d609"
+    }
+  ]
+}
